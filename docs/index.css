@@ -76,6 +76,20 @@ html > body {
 /* 디자인 컨셉 */
 #concept .con {
   position: relative;
+  width: 1920px;
+  height: 1116px;
+  background-image: url(https://cdn.jsdelivr.net/gh/sungwonje/website-renewal-project_melon_img/process-page/concept/process-page_concept_bg-img02.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#concept_title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%); 
+  z-index: 1;
 }
 #concept_text {
   position: absolute;
