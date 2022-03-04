@@ -1,0 +1,226 @@
+/* Web-Fonts */
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+html > body {
+  font-family: 'GmarketSansMedium';
+  height: 100vh;
+}
+
+
+/* Custom Lib */
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  --y-gap: 20px;
+  --x-gap: 20px;
+  --cc: 2;
+  gap: var(--y-gap) var(--x-gap);
+}
+.flex-grid > * {
+  width: calc(100% / var(--cc) - (var(--x-gap) * (var(--cc) - 1)) / var(--cc));
+}
+
+
+/* Lib */
+.con {
+  width: var(--site-width);
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+/* Custom */
+:root {
+  --site-width: 1920px;
+}
+
+/* 오프닝 */
+#opening .con {
+  position: relative;
+}
+#opening #opening_title {
+  position: absolute;
+  bottom: 23%;
+  left: 5%;
+}
+#opening #opening_tablet {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+}
+
+/* 오버뷰 */
+#overview .con {
+  position: relative;
+}
+#overview_analysis {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+}
+#overview_project-goal {
+  position: absolute;
+  top: 28%;
+  right: 5%;
+}
+#overview_arrow {
+  position: absolute;
+  top: 50%;
+  left: 49%;
+}
+
+/* 디자인 컨셉 */
+#concept .con {
+  position: relative;
+}
+#concept_text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#concept_list01 {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+}
+#concept_list02 {
+  position: absolute;
+  top: 55%;
+  left: 40%;
+}
+#concept_list03 {
+  position: absolute;
+  top: 55%;
+  left: 70%;
+}
+
+/* 컬러 */
+#color .con {
+  position: relative;
+}
+
+/* 타이포그래피 */
+#typography .con {
+  position: relative;
+}
+#typography_kr {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+#typography_eng {
+  position: absolute;
+  top: 45%;
+  right: 10%;
+}
+
+/* 스플래쉬1 */
+#splash01 .con {
+  position: relative;
+}
+#splash01_text {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#splash01_intro01 {
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#splash01_intro02 {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#splash01_intro03 {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#splash01_intro04 {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#splash01_intro05 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#splash01_intro06 {
+  position: absolute;
+  top: 84%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 스플래쉬02 */
+#splash02 .con {
+  position: relative;
+}
+#splash02_text {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#splash02_main {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#splash02_recent-album {
+  position: absolute;
+  top: 27%;
+  left: 5%;
+}
+#splash02_melon-chart-tv {
+  position: absolute;
+  top: 36%;
+  right: 5%;
+}
+#splash02_artist-recommend {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#splash02_trend-at-once {
+  position: absolute;
+  top: 63%;
+  right: 5%;
+}
+#splash02_artist-playlist {
+  position: absolute;
+  top: 73%;
+  left: 7%;
+}
+#splash02_theme-music {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 퍼블리싱 */
+#publishing .con {
+  position: relative;
+}
+#publishing_text {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
