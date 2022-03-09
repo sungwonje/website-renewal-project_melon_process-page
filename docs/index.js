@@ -1,5 +1,8 @@
-// AOS
-AOS.init();
+// 로딩
+$('html > body').imagesLoaded(function() {
+  $('#loading').remove();
+  AOS.init();
+});
 
 // 마우스 이펙트
 function MousemoveEffect1__start() {
